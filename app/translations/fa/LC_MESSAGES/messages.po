@@ -1,0 +1,321 @@
+# Persian translations for PROJECT.
+# Copyright (C) 2020 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2020-08-01 13:35+0430\n"
+"PO-Revision-Date: 2020-08-01 15:01+0430\n"
+"Language: fa\n"
+"Language-Team: fa <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"Last-Translator: \n"
+"X-Generator: Poedit 2.4\n"
+
+#: app/__init__.py:21
+msgid "Please log in to access this page."
+msgstr "لطفا برای دسترسی به این صفحه ، وارد شوید."
+
+#: app/translate.py:10
+msgid "Error: the translation service is not configured."
+msgstr "خطا: سرویس ترجمه پیکربندی نشده است."
+
+#: app/translate.py:18
+msgid "Error: the translation service failed."
+msgstr "خطا: سرویس ترجمه ناموفق بود."
+
+#: app/auth/email.py:8
+msgid "[Microblog] Reset Your Password"
+msgstr "-[میکروبلاگ] تنظیم مجدد رمز عبور شما"
+
+#: app/auth/forms.py:9 app/auth/forms.py:16 app/main/forms.py:10
+msgid "Username"
+msgstr "نام کاربری"
+
+#: app/auth/forms.py:10 app/auth/forms.py:18 app/auth/forms.py:41
+msgid "Password"
+msgstr "گذرواژه"
+
+#: app/auth/forms.py:11
+msgid "Remember Me"
+msgstr "مرا به خاطر بسپار"
+
+#: app/auth/forms.py:12 app/auth/routes.py:28 app/templates/auth/login.html:5
+msgid "Sign In"
+msgstr "ورود"
+
+#: app/auth/forms.py:17 app/auth/forms.py:36
+msgid "Email"
+msgstr "پست الکترونیکی"
+
+#: app/auth/forms.py:20 app/auth/forms.py:43
+msgid "Repeat Password"
+msgstr "تکرار گذرواژه"
+
+#: app/auth/forms.py:22 app/auth/routes.py:49
+#: app/templates/auth/register.html:5
+msgid "Register"
+msgstr "ثبت نام"
+
+#: app/auth/forms.py:27 app/main/forms.py:23
+msgid "Please use a different username."
+msgstr "لطفا از نام کاربری دیگری استفاده کنید."
+
+#: app/auth/forms.py:32
+msgid "Please use a different email address."
+msgstr "لطفا از پست الکترونیکی دیگری استفاده کنید."
+
+#: app/auth/forms.py:37 app/auth/forms.py:45
+msgid "Request Password Reset"
+msgstr "درخواست بازنشانی گذرواژه"
+
+#: app/auth/routes.py:21
+msgid "Invalid username or password"
+msgstr "نام کاربری یا گذرواژه اشتباه است"
+
+#: app/auth/routes.py:47
+msgid "Congratulations, you are now a registered user!"
+msgstr "تبریک، شما اکنون ثبت نام شده اید!"
+
+#: app/auth/routes.py:63
+msgid "Check your email for the instructions to reset your password"
+msgstr "پست الکترونیکی خود را برای راهکار بازنشانی گذرواژه بررسی کنید"
+
+#: app/auth/routes.py:66 app/templates/auth/reset_password_request.html:5
+msgid "Reset Password"
+msgstr "بازنشانی گذرواژه"
+
+#: app/auth/routes.py:80
+msgid "Your password has been reset."
+msgstr "گذرواژه شما تغییر کرد."
+
+#: app/main/forms.py:11
+msgid "About me"
+msgstr "درباره من"
+
+#: app/main/forms.py:13 app/main/forms.py:32 app/main/forms.py:49
+msgid "Submit"
+msgstr "بفرست"
+
+#: app/main/forms.py:31
+msgid "Say something"
+msgstr "چیزی بگو"
+
+#: app/main/forms.py:36 app/main/routes.py:167
+msgid "Search"
+msgstr "جستجو"
+
+#: app/main/forms.py:47
+msgid "Message"
+msgstr "پیام"
+
+#: app/main/routes.py:37
+msgid "Your post is now live!"
+msgstr "پست شما اکنون منتشر شده است!"
+
+#: app/main/routes.py:46 app/templates/base.html:21
+msgid "Home"
+msgstr "خانه"
+
+#: app/main/routes.py:61 app/templates/base.html:22
+msgid "Explore"
+msgstr "کاوش"
+
+#: app/main/routes.py:98
+msgid "Your changes have been saved."
+msgstr "تغییرات شما ذخیره شد!"
+
+#: app/main/routes.py:103 app/templates/edit_profile.html:5
+msgid "Edit Profile"
+msgstr "ویرایش نمایه"
+
+#: app/main/routes.py:114 app/main/routes.py:134
+#, python-format
+msgid "User %(username)s not found."
+msgstr "کاربر %(username)s یافت نشد."
+
+#: app/main/routes.py:117
+msgid "You cannot follow yourself!"
+msgstr "شما نمی توانید خودتان را دنبال کنید!"
+
+#: app/main/routes.py:121
+#, python-format
+msgid "You are following %(username)s!"
+msgstr "شما %(username)s را دنبال می کنید!"
+
+#: app/main/routes.py:137
+msgid "You cannot unfollow yourself!"
+msgstr "شما نمی توانید خودتان را دنبال نکنید!"
+
+#: app/main/routes.py:141
+#, python-format
+msgid "You are not following %(username)s."
+msgstr "شما %(username)s را دنبال نمی کنید!"
+
+#: app/main/routes.py:182
+msgid "Your message has been sent."
+msgstr "پیام شما فرستاده شد."
+
+#: app/main/routes.py:184
+msgid "Send Message"
+msgstr "فرستادن پیام"
+
+#: app/main/routes.py:210
+msgid "An export task is currently in progress"
+msgstr "در حال حاضر یک کار صادر نمودن در دست انجام است"
+
+#: app/main/routes.py:212
+msgid "Exporting posts..."
+msgstr "صادر نمودن پست ها..."
+
+#: app/templates/_post.html:16
+#, python-format
+msgid "%(username)s said %(when)s"
+msgstr "%(username)s گفت  %(when)s"
+
+#: app/templates/_post.html:27
+msgid "Translate"
+msgstr "ترجمه"
+
+#: app/templates/base.html:4
+msgid "Welcome to Microblog"
+msgstr "به میکروبلاگ خوش آمدید"
+
+#: app/templates/base.html:33
+msgid "Login"
+msgstr "وارد شدن"
+
+#: app/templates/base.html:36 app/templates/messages.html:4
+msgid "Messages"
+msgstr "پیام ها"
+
+#: app/templates/base.html:45
+msgid "Profile"
+msgstr "نمایه"
+
+#: app/templates/base.html:46
+msgid "Logout"
+msgstr "خارج شدن"
+
+#: app/templates/base.html:95
+msgid "Error: Could not contact server."
+msgstr "خطا: عدم ارتباط با سرور."
+
+#: app/templates/index.html:5
+#, python-format
+msgid "Hi, %(username)s!"
+msgstr "درود, %(username)s!"
+
+#: app/templates/index.html:17 app/templates/user.html:47
+msgid "Newer posts"
+msgstr "پست های تازه"
+
+#: app/templates/index.html:22 app/templates/user.html:52
+msgid "Older posts"
+msgstr "پست های گذشته"
+
+#: app/templates/messages.html:12
+msgid "Newer messages"
+msgstr "پست های تازه تر"
+
+#: app/templates/messages.html:17
+msgid "Older messages"
+msgstr "پست های قدیمی تر"
+
+#: app/templates/search.html:4
+msgid "Search Results"
+msgstr "نتایج جستجو"
+
+#: app/templates/search.html:12
+msgid "Previous results"
+msgstr "نتایج قبل"
+
+#: app/templates/search.html:17
+msgid "Next results"
+msgstr "نتایج بعد"
+
+#: app/templates/send_message.html:5
+#, python-format
+msgid "Send Message to %(recipient)s"
+msgstr "فرستادن پیام به %(recipient)s"
+
+#: app/templates/user.html:8
+msgid "User"
+msgstr "کاربر"
+
+#: app/templates/user.html:11 app/templates/user_popup.html:9
+msgid "Last seen on"
+msgstr "آخرین بازدید"
+
+#: app/templates/user.html:13 app/templates/user_popup.html:11
+#, python-format
+msgid "%(count)d followers"
+msgstr "%(count)d دنبال کننده"
+
+#: app/templates/user.html:13 app/templates/user_popup.html:11
+#, python-format
+msgid "%(count)d following"
+msgstr "%(count)d دنبال شونده"
+
+#: app/templates/user.html:15
+msgid "Edit your profile"
+msgstr "ویرایش نمایه خود"
+
+#: app/templates/user.html:17
+msgid "Export your posts"
+msgstr "پست های خود را صادر کنید"
+
+#: app/templates/user.html:23 app/templates/user_popup.html:17
+msgid "Follow"
+msgstr "دنبال کردن"
+
+#: app/templates/user.html:30 app/templates/user_popup.html:24
+msgid "Unfollow"
+msgstr "دنبال نکردن"
+
+#: app/templates/user.html:35
+msgid "Send private message"
+msgstr "فرستادن پیام خصوصی"
+
+#: app/templates/auth/login.html:12
+msgid "New User?"
+msgstr "کاربر جدید هستید؟"
+
+#: app/templates/auth/login.html:12
+msgid "Click to Register!"
+msgstr "برای ثبت نام کلیک کنید!"
+
+#: app/templates/auth/login.html:14
+msgid "Forgot Your Password?"
+msgstr "گذرواژه تان را فراموش کرده اید؟"
+
+#: app/templates/auth/login.html:15
+msgid "Click to Reset It"
+msgstr "برای بازنشانی آن کلیک کنید"
+
+#: app/templates/auth/reset_password.html:5
+msgid "Reset Your Password"
+msgstr "گذروازه تان را بازنشانی کنید"
+
+#: app/templates/errors/404.html:4
+msgid "Not Found"
+msgstr "یافت نگردید"
+
+#: app/templates/errors/404.html:5 app/templates/errors/500.html:6
+msgid "Back"
+msgstr "بازگشت"
+
+#: app/templates/errors/500.html:4
+msgid "An unexpected error has occurred"
+msgstr "خطای پیشبینی نشده ای رخ داده است"
+
+#: app/templates/errors/500.html:5
+msgid "The administrator has been notified. Sorry for the inconvenience!"
+msgstr "پوزش بخاطر این دردسر. مدیر سیستم در جریان قرار داده شد!"
